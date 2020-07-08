@@ -140,7 +140,7 @@ document.getElementById('book-form').addEventListener('submit',function(e){
 //Event: To mark a Book as Read
  document.getElementById('book-list').addEventListener('click',function(e){
     BookList.readBook(e.target)
-    BookList.showAlert(`Please fill in all fields`, 'success');
+    BookList.showAlert(`This is the current book being read`, 'success');
 }) 
 
 
