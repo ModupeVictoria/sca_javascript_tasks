@@ -1,0 +1,41 @@
+body{
+    background-color: #fff;
+    margin: 0px auto;
+}
+.calbody{
+    background-color: #594ef1;
+    border: 1px solid #ff0;
+    padding: 6px;
+    margin-left: 450px;
+    width:340px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #ff3077;
+}
+#inputVal{
+    color: black;
+    text-align: right;
+    width: 325px;
+    height: 35px;
+    font-size: 20px;
+}
+button{
+    background-color: #fff;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid #594ef1;
+}
+button:hover{
+    background-color: #594ef1;
+}
+.clear{
+   background-color: #ff3077;
+}
+
+/*#equalTo{
+    width: 175px;
+    
+}*/

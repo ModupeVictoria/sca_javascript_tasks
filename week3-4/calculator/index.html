@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Calculator</h1>
+    <div class="calbody">
+        <form name="lcdform">
+          <input type="text" data-inputval id="inputVal" name="inputVals" value="">
+        </form>
+      
+      <div class="calbutton">
+          
+        <button  id="num1" data-number onclick="numOne();">1</button>
+        <button  id="num2" data-number onclick="numTwo();">2</button>
+        <button  id="num3" data-number onclick="numThree();">3</button>
+        <button  id="operationPlus" data-operation  onclick="operationPlus();">+</button><br>
+
+        <button  id="num4" data-number onclick="numFour();">4</button>
+        <button  id="num5" data-number onclick="numFive();">5</button>
+        <button  id="num6" data-number onclick="numSix();">6</button>
+        <button  id="operationMinus" data-operation onclick="operationMinus();">-</button><br>
+
+        <button  id="num7" data-number onclick="numSeven();">7</button>
+        <button  id="num8" data-number onclick="numEight();">8</button>
+        <button  id="num9" data-number onclick="numNine();">9</button>
+        <button  id="operationMult" data-operation onclick="operationMult();">*</button><br>
+
+        <button  id="clr" class="clear" data-clear onclick="clr();">AC</button>
+        <button  id="dot" data-number onclick="dot();">.</button>
+        <button  id="zero" data-number onclick="zero();">0</button>
+        <button  id="operationDiv" data-operation onclick="operationDiv();">/</button><br>
+
+        <button  id="equalTo" data-equals onclick="equalTo();">=</button>
+
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
