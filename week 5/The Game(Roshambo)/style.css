@@ -1,0 +1,85 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', 'sans-serif';
+    line-height: 1.6;
+    background: #fff;
+    color: #333;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0.2rem;
+    text-align: center;
+}
+.restart-btn{
+    display: none;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.restart-btn:hover{
+    background-color: #003699;
+    color: #fff;
+}
+.header{
+    text-align: center;
+    margin: 1rem 0;
+
+}
+.header h1{
+    margin-bottom: 1rem;
+}
+.score{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.score p:first-child{
+    background: #003699;
+
+}
+.score p:last-child{
+    background: #333333;
+
+}
+.choices{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+.choice{
+    cursor: pointer;
+}
+.choice:hover{
+    color: #003699;
+}
+.text-win{
+    color: #28a745;
+}
+.text-lose{
+    color: #dc3545;
+}
+@media(max-width: 700px){
+    .choice{
+        font-size: 110px;
+    }
+}
+@media(max-width: 500px){
+    .choice{
+        font-size: 80px;
+    }
+}

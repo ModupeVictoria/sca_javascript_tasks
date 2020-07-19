@@ -1,0 +1,94 @@
+.container{
+    margin-top: 20px;
+}
+.alert {
+    padding: 20px;
+    width: 70%;
+    color: white;
+    margin: auto;
+    text-align: center;
+  }
+  .alert-danger{
+      background-color: #f44336;
+  }
+  .alert-success{
+    background-color: #28a745;
+}
+.title{
+    color: blue;
+    text-align: center;
+}
+#book-form{
+    text-align: center;
+    padding: 10px;
+}
+input[type=text],input[type=date]{
+    width: 25%;
+    padding: 6px;
+}
+.btn{
+    background-color: blue;
+    color: #fff;
+    width: 25%;
+    padding: 7px;
+    border: none;
+    font-size: 20px;
+}
+.score{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 1.2rem;
+    color: #fff;
+    
+}
+.score p:first-child{
+    background: #28a745;
+    padding: 10px;
+
+}
+.score p:last-child{
+    background: #f44336;
+    padding: 10px;
+
+}
+#table-head, #complete-table-head{
+    text-align: center;
+    margin:40px ;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+#table-head th, #table-head td, #complete-table-head th, #complete-table-head td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#table-head tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#table-head tr:hover,#complete-table-head tr:hover{
+    color: #ddd;
+}
+#table-head th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(52, 52, 221);
+    color: #fff;
+}
+#complete-table-head{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: green;
+    color: #fff;
+}
+label{
+    font-size: 20px;
+}
+
+.complete-btn{
+    background-color: lightseagreen;
+    margin: 5px;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.7;
+}  
